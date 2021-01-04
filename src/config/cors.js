@@ -5,8 +5,8 @@ module.exports = function (req, res, next) {
     "GET, POST, OPTIONS, PUT, PATCH, DELETE"
   );
   res.header(
-    "Acces-Control-Allow-Headers",
-    "Originm X-Requested-With, Content-Type, Accept"
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
   );
   next();
 };
